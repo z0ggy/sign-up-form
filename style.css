@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* create full size page container and add background image to it */
+.container {
+    width: 100%;
+    height: 100vh;
+    background: url(images/bg1.jpeg) center no-repeat;
+}
+
+.form-container {
+    display: none;
+}
