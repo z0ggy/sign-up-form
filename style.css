@@ -38,6 +38,37 @@
 .arrow {
     font-size: 50px;
     margin-bottom: 30px;
+    animation: anim 3s infinite;
+}
+
+.banner-btn {
+    width: 200px;
+    padding: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: transparent;
+    color: #fff;
+    border-radius: 50px;
+    border: 2px solid#fff;
+    outline: none;
+    cursor: pointer;
+    transition: transform .3;
+}
+
+.banner-btn:hover {
+    transform: translateY(-1px);
+}
+
+@keyframes anim {
+    0% {transform: translateY(0)}
+    20% {transform: translateY(0)}
+    40% {transform: translateY(-30px)}
+    50% {transform: translateY(0)}
+    60% {transform: translateY(-15px)}
+    80% {transform: translateY(0)}
+    100% {transform: translateY(0)}
 }
 
 .form-container {
