@@ -119,3 +119,12 @@
     font-weight: 200;
     margin-bottom: 8px;
 }
+
+.sign-up-form label {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
