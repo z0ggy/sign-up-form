@@ -103,4 +103,19 @@
     margin-bottom: 50px;
     outline: none;
     padding: 10px 0;
+    transition: border-bottom-color .8s;
+}
+
+/* change color bottom underline border after click on them */
+.form-input:focus {
+    border-bottom-color: #cc683c;
+}
+
+.sign-up-form p {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    margin-bottom: 8px;
 }
