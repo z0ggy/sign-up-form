@@ -128,3 +128,20 @@
     letter-spacing: 1px;
     text-transform: uppercase;
 }
+
+.sign-up-form input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 15px;
+    background-color: #eee;
+    outline: none;
+    border-radius: 20px;
+    margin: 0 8px;
+}
+
+.sign-up-form button {
+    display: block;
+    margin-top: 80px;
+}
