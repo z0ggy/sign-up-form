@@ -190,7 +190,24 @@ left: 18px;
 
 .header {
     width: 50%;
-    background: url(images/bg2.jpeg)
+    background: linear-gradient(to top, rgba(0, 0, 0, .4), rgba(0, 0, 0, .2)), url(images/bg2.jpeg) center no-repeat;
+    background-size: cover;
+    box-shadow: -10px 0 30px rgba(0, 0, 0, .3);
+    position: relative;
+}
+
+/* style h1 header */
+.header h1{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 /* move x button from upper right corner to bottom right corner */
