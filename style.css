@@ -187,3 +187,14 @@ left: 18px;
     text-transform: uppercase;
     cursor: pointer;
 }
+
+/* move x button from upper right corner to bottom right corner */
+.x-btn {
+    position: absolute;
+    bottom: -6%;
+    right: -1%;
+    font-size: 23px;
+    font-weight: bold;
+    color: #262626;
+    cursor: pointer;
+}
