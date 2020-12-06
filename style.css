@@ -188,6 +188,11 @@ left: 18px;
     cursor: pointer;
 }
 
+.header {
+    width: 50%;
+    background: url(images/bg2.jpeg)
+}
+
 /* move x button from upper right corner to bottom right corner */
 .x-btn {
     position: absolute;
